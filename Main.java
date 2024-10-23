@@ -22,7 +22,7 @@ public class Main
             {8, 33, 18, 6, 1},
         };
         GridPath two = new GridPath(secondGrid);
-        System.out.println("\n" + two);
+        System.out.println(two);
         System.out.println(two.sumPath(1, 1));
     }
 }
